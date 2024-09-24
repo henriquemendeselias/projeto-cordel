@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: 'Sriracha', cursive; 
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+    
+header > h1 {
+    font-family: var(--fonte02);
+    font-size: 10vw;
+    margin: 0px;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    font-family: var(--fonte01);
+    color: white;
+    padding-bottom: 50px;
+}
+    
+main{
+    background-color: white;
+    font-family: var(--fonte03);
+    font-size: 3.5vw;
+}
+
+section{
+    padding-left: 20px ;
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+}
+
+section > p { padding-bottom: 2em;}
+
+section#dois{
+    color: white;
+    background: url(pacote-d012/imagens/background001.jpg) no-repeat fixed right bottom;
+    background-size: cover;
+    padding: 20px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.651);
+}
+
+section#dois > div{
+    background-color: rgba(0, 0, 0, 0.292);
+    display: inline-block;
+    padding: 10px;
+}
+
+section#dois > div > p {
+    text-shadow: 1.5px 1.5px black;
+}
+
+section#cinco{
+    color: white;
+    background: url(pacote-d012/imagens/background002.jpg) no-repeat fixed right bottom;
+    background-size: cover;
+    padding: 20px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.651);
+}
+
+section#cinco > div{
+    background-color: rgba(0, 0, 0, 0.292);
+    display: inline-block;
+    padding: 10px;
+}
+
+section#cinco > div > p {
+    text-shadow: 1.5px 1.5px black;
+}
+
+footer{
+    font-family: var(--fonte01);
+    font-size: 2vw;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
